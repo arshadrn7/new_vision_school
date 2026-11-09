@@ -210,3 +210,6 @@ input,select,textarea{font-size:13px;padding:12px}
  .hero-contact svg{width:14px;height:14px}
 }
 @media(max-width:360px){.hero-contact{flex-wrap:wrap;gap:1px}.hero-contact>a{min-height:36px}}
+.hero-visual>img.hero-slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease,transform .7s var(--ease-out)}.hero-visual>img.hero-slide.is-active{opacity:1}
+.hero-dots{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:flex;gap:4px;z-index:2}.hero-dot{width:24px;height:24px;padding:0;border:0;background:none;display:grid;place-items:center}.hero-dot:before{content:'';width:8px;height:8px;border-radius:50%;background:#ffffff80;border:1px solid #fff;transition:background .3s,transform .3s}.hero-dot.is-active:before{background:#fff;transform:scale(1.25)}.hero-dot:focus-visible{outline:2px solid #fff;outline-offset:0}
+@media(max-width:760px){.hero-dots{bottom:auto;top:14px;left:auto;right:14px;transform:none}}
