@@ -1,52 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img" aria-labelledby="title desc">
   <title id="title">New Vision School logo</title>
-  <desc id="desc">School emblem with an open book, red starburst, and text New Vision School.</desc>
-  <rect width="560" height="560" fill="#ffffff"/>
-  <g transform="translate(280 260)">
-    <g fill="#d91e26" opacity="0.95">
-      <g transform="translate(0 -10)">
-        <path d="M0,-180 L10,-20 L0,0 L-10,-20 Z"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(15)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(30)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(45)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(60)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(75)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(90)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(105)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(120)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(135)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(150)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(165)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(180)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(195)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(210)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(225)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(240)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(255)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(270)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(285)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(300)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(315)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(330)"/>
-        <path d="M0,-180 L46,-26 L24,-8 L0,0 L-24,-8 L-46,-26 Z" transform="rotate(345)"/>
-      </g>
+  <desc id="desc">Original red and white school logo for New Vision School.</desc>
+  <rect width="620" height="420" fill="#ffffff"/>
+
+  <g transform="translate(310 180)">
+    <g fill="#d61e27" transform="translate(0 -10)">
+      <path d="M0 -152 L12 -14 L0 5 L-12 -14 Z"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(15)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(30)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(45)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(60)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(75)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(90)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(105)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(120)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(135)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(150)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(165)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(180)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(195)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(210)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(225)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(240)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(255)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(270)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(285)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(300)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(315)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(330)"/>
+      <path d="M0 -152 L30 -30 L18 -12 L0 5 L-18 -12 L-30 -30 Z" transform="rotate(345)"/>
     </g>
-    <circle cx="0" cy="-18" r="24" fill="#a10f2d"/>
-    <g fill="#820a18">
-      <path d="M-180,90 C-110,40 -60,20 0,20 C65,20 120,42 180,92 L180,170 C120,120 65,98 0,98 C-64,98 -120,120 -180,170 Z"/>
-      <path d="M-130,95 C-80,70 -40,62 0,62 C40,62 80,70 130,95 L130,170 C80,145 40,136 0,136 C-40,136 -80,145 -130,170 Z" fill="#b6122d"/>
+
+    <circle cx="0" cy="-18" r="26" fill="#a5122c"/>
+    <circle cx="0" cy="-18" r="12" fill="#d61e27"/>
+
+    <g fill="#7a0717">
+      <path d="M-140 40 L-28 28 L0 86 L-114 126 Z"/>
+      <path d="M140 40 L28 28 L0 86 L114 126 Z"/>
     </g>
-    <g fill="#d91e26">
-      <path d="M-135,152 L-35,52 L-25,52 L-115,152 Z"/>
-      <path d="M135,152 L35,52 L25,52 L115,152 Z"/>
+
+    <g fill="#9d1028">
+      <path d="M-170 86 C-130 42 -90 20 -20 18 C44 16 92 40 165 90 L170 165 C92 120 42 100 -20 98 C-105 96 -140 110 -170 165 Z"/>
+      <path d="M-138 76 C-90 48 -54 38 -15 40 C40 42 72 54 118 82 L116 152 C63 120 28 110 -18 108 C-68 106 -102 116 -138 152 Z" fill="#af152d"/>
     </g>
-    <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" fill="#5b0616">
-      <text x="-70" y="85" font-size="76">N</text>
-      <text x="70" y="85" font-size="76">S</text>
+
+    <g fill="#d61e27">
+      <path d="M-102 128 L-30 62 L-18 62 L-88 128 Z"/>
+      <path d="M102 128 L30 62 L18 62 L88 128 Z"/>
+    </g>
+
+    <g fill="#7a0617" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="76" text-anchor="middle">
+      <text x="-70" y="90">N</text>
+      <text x="70" y="90">S</text>
     </g>
   </g>
-  <g transform="translate(280 370)">
-    <text font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" fill="#7b0d1c" font-size="54">New Vision School</text>
-    <text font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" fill="#8d0e2d" font-size="18" letter-spacing="1.2">EDUCATION FOR INNOVATION</text>
+
+  <g transform="translate(310 300)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#7a0d1b">New Vision School</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" letter-spacing="1.3" fill="#8b1223">EDUCATION FOR INNOVATION</text>
   </g>
 </svg>
