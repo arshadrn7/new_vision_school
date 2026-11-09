@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Sports activity</title>
+  <desc id="desc">Students playing sports outdoors, wearing red checked shirts and navy trousers.</desc>
+  <rect width="1200" height="760" fill="#edf7f1"/>
+  <rect x="0" y="520" width="1200" height="240" fill="#cfe3d4"/>
+  <path d="M0 560 L1200 560" stroke="#93bba1" stroke-width="12" fill="none"/>
+  <path d="M150 520 L150 200 L325 200 L325 520 Z" fill="#d7e7d9"/>
+  <path d="M875 520 L875 200 L1050 200 L1050 520 Z" fill="#d7e7d9"/>
+  <g transform="translate(300 260)">
+    <g transform="translate(0 0)">
+      <circle cx="0" cy="0" r="38" fill="#f2c8a8"/>
+      <path d="M-44 82 Q0 30 44 82 L38 225 L-38 225 Z" fill="#d7292b"/>
+      <rect x="-48" y="150" width="96" height="104" rx="10" fill="#17276c"/>
+      <rect x="-18" y="108" width="36" height="68" rx="8" fill="#d7292b"/>
+      <path d="M-20 95 L20 95" stroke="#f4efe8" stroke-width="8"/>
+    </g>
+    <g transform="translate(170 20)">
+      <circle cx="0" cy="0" r="38" fill="#f3c9a8"/>
+      <path d="M-44 82 Q0 30 44 82 L38 225 L-38 225 Z" fill="#d7292b"/>
+      <rect x="-48" y="150" width="96" height="104" rx="10" fill="#17276c"/>
+      <rect x="-18" y="108" width="36" height="68" rx="8" fill="#d7292b"/>
+      <path d="M-20 95 L20 95" stroke="#f4efe8" stroke-width="8"/>
+    </g>
+    <g transform="translate(340 0)">
+      <circle cx="0" cy="0" r="38" fill="#efc5a0"/>
+      <path d="M-44 82 Q0 30 44 82 L38 225 L-38 225 Z" fill="#d7292b"/>
+      <rect x="-48" y="150" width="96" height="104" rx="10" fill="#17276c"/>
+      <rect x="-18" y="108" width="36" height="68" rx="8" fill="#d7292b"/>
+      <path d="M-20 95 L20 95" stroke="#f4efe8" stroke-width="8"/>
+    </g>
+  </g>
+  <g transform="translate(690 260)">
+    <circle cx="0" cy="0" r="44" fill="#f3c9a8"/>
+    <path d="M-48 88 Q0 32 48 88 L40 240 L-40 240 Z" fill="#d7292b"/>
+    <rect x="-52" y="160" width="104" height="110" rx="10" fill="#17276c"/>
+    <rect x="-18" y="116" width="36" height="70" rx="8" fill="#d7292b"/>
+    <path d="M-20 100 L20 100" stroke="#f4efe8" stroke-width="8"/>
+  </g>
+  <g transform="translate(885 315)">
+    <path d="M0 0 L110 50 L0 120 Z" fill="#e7d4a6" stroke="#c9b07d" stroke-width="4"/>
+    <circle cx="58" cy="55" r="18" fill="#c9622b"/>
+  </g>
+  <g fill="#2e4d40" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    <text x="470" y="650">SPORTS ACTIVITY</text>
+  </g>
+</svg>
