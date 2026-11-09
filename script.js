@@ -40,7 +40,7 @@ form.addEventListener('submit', async event => {
  const button = form.querySelector('[type="submit"]'); const status = document.getElementById('form-status');
  button.disabled = true; button.textContent = 'Sending enquiry…'; status.textContent = ''; status.className = '';
  try { const response = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(new FormData(form)).toString() }); if (!response.ok) throw new Error('Submission failed'); status.textContent = 'Thank you. Your enquiry has been sent to the school team.'; status.className = 'success'; form.reset(); }
- catch { status.textContent = 'Your enquiry could not be sent. Please try again, or call Shaik Rayees Sir on +91 9490357868.'; status.className = 'error'; }
+ catch { status.textContent = 'Your enquiry could not be sent. Please try again, or call Rayees Ahmed on +91 9490357868.'; status.className = 'error'; }
  finally { button.disabled = false; button.innerHTML = 'Send enquiry <span>↗</span>'; }
 });
 document.getElementById('year').textContent = new Date().getFullYear();
@@ -102,3 +102,23 @@ reducedMotion.addEventListener('change', () => {
  resetHeroMotion();
  if (reducedMotion.matches) document.getAnimations().forEach(animation => animation.cancel());
 });
+(() => {
+ const slides = [...document.querySelectorAll('.hero-slide')];
+ const dots = [...document.querySelectorAll('.hero-dot')];
+ if (slides.length < 2) return;
+ let current = 0; let timer;
+ function show(index) {
+  current = (index + slides.length) % slides.length;
+  slides.forEach((slide, i) => { slide.classList.toggle('is-active', i === current); if (i === current) slide.loading = 'eager'; });
+  dots.forEach((dot, i) => { dot.classList.toggle('is-active', i === current); if (i === current) dot.setAttribute('aria-current', 'true'); else dot.removeAttribute('aria-current'); });
+  slides[(current + 1) % slides.length].loading = 'eager';
+ }
+ function start() { clearInterval(timer); timer = setInterval(() => show(current + 1), 5000); }
+ function stop() { clearInterval(timer); }
+ dots.forEach((dot, i) => dot.addEventListener('click', () => { show(i); start(); }));
+ const visual = slides[0].parentElement;
+ visual.addEventListener('mouseenter', stop); visual.addEventListener('mouseleave', start);
+ visual.addEventListener('focusin', stop); visual.addEventListener('focusout', start);
+ document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());
+ start();
+})();
